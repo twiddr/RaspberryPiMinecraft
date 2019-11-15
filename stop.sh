@@ -29,7 +29,7 @@ if screen -list | grep -q "minecraft"; then
   screen -S minecraft -X quit
 fi
 
-echo "Minecraft server stopped."
+echo "Minecraft server stopped!"
 
 # Sync all filesystem changes out of temporary RAM
 sync
